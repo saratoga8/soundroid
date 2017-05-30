@@ -1,0 +1,10 @@
+For uninstall the project, which had installed as binary:
+    - remove the library libLog.so from the system directory for libraries (to find out
+      the directory: ldd ./vol_daemon | grep libLog.so)
+    - remove the project's directory
+
+For uninstall the built project:
+    make clean
+    make uninstall (as root)
+
+After that, the project's directory could be deleted manually

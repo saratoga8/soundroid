@@ -1,0 +1,45 @@
+This project is for volume control of a desktop(laptop) from an Android device
+
+	Features:
+		- control the desktop's sound volume from Android device by WiFi and Bluetooth
+		- saving controlled desktops names in Android device
+		- the project is open source and FREE for using and changing
+
+	Requires:
+		- Linux system: with ALSA support and Gnome(only for using the GUI daemon control program), 
+		  		Bluetooth support(only for using Bluetooth connection)
+		- Android device with WiFi(The minimal Android version 2.2)
+
+	The project consists of two parts: 	
+		- The Android application Soundroid from the Google Play
+		- The Linux daemon and the program for controlling the daemon(GUI), for connecting with the Android application.
+		  The daemon can be run standalone or as a task of scheduler(e.g. cron or fcron)
+
+For desktop volume control from Android by Wifi, the desktop and the Android device should be connected to the same router and
+selected port shouldn't be in use by other application or program
+
+For desktop volume control from Android by Bluetooth, the desktop and the Android device should be paired by bluetooth manager
+e.g. blueman - the bluetooth manager for Linux
+
+The structure of the project:
+    
+    Source code directories:
+	Gui           - The gui program for controlling volume daemon: change port, restart, stop and etc.
+	Log           - The dynamic library for writing logs of the volume daemon
+	MsgsQueue     - The library for sending/receiving messages between processes(e.g. between gui and daemon)
+	SoundLib      - The library for controlling sound volume by ALSA
+	Utils         - Utils for work with files, strings etc.
+	net/wifi      - The library for connecting to the daemon by wifi
+	net/bluetooth - The library for connecting to the daemon by bluetooth
+
+	scripts - contains script for stopping the running daemon
+
+	headers - header files for the daemon(commands, connectors)
+	src - source files for the daemon(commands, connectors)
+
+	config.file - configuration file for doxygen
+	Makefile - the main make file
+
+
+Support:
+	any questions or advices may be sent by email: saratoga8@gmail.com

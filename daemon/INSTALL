@@ -1,0 +1,39 @@
+---- To install the compiled agent:
+    - upack the downloaded file
+    - copy all the shared libraries files *.so from the lib directory to the system's directory for libraries(/usr/lib, /lib or /lib64)
+    - run the daemon from the build directory by command line or by gui.
+	E.g. for running the daemon in wifi mode listening the port 5000:
+		cd build
+		./vol_daemon wifi 5000
+	E.g. for running the daemon in bluetooth mode:
+		cd build
+		./vol_daemon bt
+       E.g. for running the daemon from gui:
+		cd build
+		./gui
+
+    - to stop the daemon in command line:
+	cd build
+	./stop.sh
+
+---- To install the agent from source code:
+For building should be used the compiler gcc-4.* and g++-4.*
+
+The project uses ALSA for controlling sound volume, then the ALSA's source code should be installed.
+    E.g. for Ubuntu the package libasound2-dev should be installed
+
+Connecting from an Android device to the daemon implemented by Wifi or Bluetooth, then
+for Bluetooth connection build should be installed the package libbluetooth-dev
+
+For building only daemon without GUI program:
+    make
+    make install        (as root)
+The last command copy the built dynamic libraries from the local directory to the directory of 
+system libraries, which is in the project /usr/lib by default.
+If on your system the system libraries directory is not /usr/lib, the variable SYS_LIBS_DIR in
+Makefile should be changed to the system libraries directory of your system.
+
+For buiding GUI program, the GTK+-3 should be installed with source codes.
+E.g. for Ubuntu the package libgtk-3-dev should be installed
+For building from source code:
+    make gui
