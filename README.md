@@ -14,4 +14,4 @@ This project is for sound volume control of a desktop(laptop) from an Android de
 		- The Linux daemon and the program for controlling the daemon(GUI), for connecting with the Android application.
 		  The daemon can be run stand alone or as a task of scheduler(e.g. cron or fcron)
 	
-  
+  For more information go to the project's site (https://cdn.rawgit.com/saratoga8/soundroid/95e448bd/html/index.html)
