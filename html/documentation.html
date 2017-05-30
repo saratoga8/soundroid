@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="keywords" content="Android, Linux, application, sound, control, desktop, volume">
+<meta name="description" content="Sound control of your desktop by Android application">
+<meta name="author" content="saratoga8@gmail.com">
+<link href="styles.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+<pre>
+<font style="font-weight: bold;">The project consists of two parts:</font> 
+    
+    	- Android application 
+    	- Desktop daemon
+    
+<font style="font-weight: bold;">Android application:</font>
+    	
+    	The main activity, the activity for adding a new desktop data, the activity for editing a selected desktop data:
+    	
+    	<img src="images/main_activity.png" alt="main_activity"/> <img src="images/edit_activity.png" alt="edit_activity"/> <img src="images/edit_activity2.png" alt="edit_activity"/>
+    	
+    	
+    	
+    	
+    The desktop daemon controls the sound volume, receives and sends commands to the Android application.
+        
+    
+<font style="font-weight: bold;">Installation:</font>
+
+    IMPORTANT: The port number 7 used by Echo Protocol should be opened in your firewall.
+               The port and the protocol are used by the Android application for checking the desktop's IP is reachable.
+
+	- Without building from source: 
+		1.Unpack the downloaded archive
+		2.Copy the libraries <font style="font-style: italic;">*.so</font> from the local <font style="font-style: italic;">lib</font> directory to the directory <font style="font-style: italic;">/usr/lib</font> (at 64-bit platforms sometimes used <font style="font-style: italic;">/lib64</font>)
+		3.Run the daemon:
+                  - Go to the local directory <font style="font-style: italic;">build</font> 
+                  - For connecting by Wifi, run the daemon with the parameter <font style="font-style: italic;">wifi</font> and the port number, e.g. <font style="font-style: italic;">./vol_daemon wifi 5000</font>
+                    For connecting by BlueTooth, run the daemon with the parameter <font style="font-style: italic;">bt</font>, e.g. <font style="font-style: italic;">./vol_daemon bt</font> 
+		  To stop the daemon, run the script <font style="font-style: italic;">stop.sh</font>
+		  To change the port for connecting by Wifi, stop the daemon and start it with another port or use the GUI program
+		4.Install the Android application
+                  For connecting by Wifi from the application:
+                     - Click 'Add new' and add your controlled desktop by its IP and the used port number(see 3.) 
+                  For connecting by Bluetooth from the application(the desktop and used Android device should be paired by Bluetooth before):
+                     - Select your desktop name from the drop list of desktops in the Application
+	
+	- With building from source:
+		see the INSTALL file in the downloaded archive
+		
+<font style="font-weight: bold;">Controlling the desktop daemon by GUI program:</font>
+ 
+		The program should be run in the same directory with the daemon program
+		<img src="images/gui.png" alt="gui"/>
+		
+		Connected IP is the IP of the connected Android device.
+		Port is the port number for connecting daemon and the Android device.
+		
+		<img src="images/gui2.png" alt="gui2"/>
+
+		IMPORTANT: 
+		  For Wifi connection: the used port should be opened in your firewall
+		  For Bluetooth  connection: the desktop and the Android device should be paired by Bluetooth
+		
+<font style="font-weight: bold;">Source code documentation:</font>
+
+		- <a href="doc/android/html/index.html">Android application</a>
+		- <a href="doc/daemon/html/index.html">Desktop daemon</a><br>
+		
+<font style="font-weight: bold;">Tested on distributions:</font>
+        - Ubuntu
+        - Fedora
+        - Debian		
+</pre>
+</body>
+</html>

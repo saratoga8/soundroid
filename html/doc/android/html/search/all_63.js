@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['android',['android',['../namespacecom_1_1android.html',1,'com']]],
+  ['checkedconnectiontyperadioid',['checkedConnectionTypeRadioID',['../classcom_1_1android_1_1ui_1_1DistanceVolumeActivity.html#afa3c4d7bc14aed9a082073ffbf87b162',1,'com::android::ui::DistanceVolumeActivity']]],
+  ['chgcurrentlyediteddesktopdata',['chgCurrentlyEditedDesktopData',['../classcom_1_1android_1_1ui_1_1DistanceVolumeActivity.html#a1b803f28db4e4f316f073be4924738b1',1,'com::android::ui::DistanceVolumeActivity']]],
+  ['chkip',['chkIP',['../classcom_1_1android_1_1net_1_1DesktopData.html#a10f94bca4836d538a1dfb80682b3e191',1,'com::android::net::DesktopData']]],
+  ['closebufferreaderandinputstream',['closeBufferReaderAndInputStream',['../classcom_1_1android_1_1others_1_1FileUtils.html#a68067e8ef8408ff6c2dc32e646468fab',1,'com::android::others::FileUtils']]],
+  ['closeconnection',['closeConnection',['../classcom_1_1android_1_1net_1_1NetConnector.html#ac710d10a52a876f77cdb105c8ff2355f',1,'com::android::net::NetConnector']]],
+  ['closeoutputstream',['closeOutputStream',['../classcom_1_1android_1_1others_1_1FileUtils.html#a60f7c6c3a87d1d9d973c6e57ce287936',1,'com::android::others::FileUtils']]],
+  ['com',['com',['../namespacecom.html',1,'']]],
+  ['conn_5ftype_5fchecked_5fradio_5fbutt_5fid_5ffile_5fname',['CONN_TYPE_CHECKED_RADIO_BUTT_ID_FILE_NAME',['../classcom_1_1android_1_1ui_1_1DistanceVolumeActivity.html#af44cf4c5b1f033b65fef44eb9f3b355c',1,'com::android::ui::DistanceVolumeActivity']]],
+  ['connect',['connect',['../classcom_1_1android_1_1net_1_1NetConnector.html#a02bae3dbd428ad2fdd7976fa89d099af',1,'com::android::net::NetConnector']]],
+  ['connected',['connected',['../classcom_1_1android_1_1net_1_1NetConnector.html#a6c874c6f83a1359d177b2eee77fef8fd',1,'com::android::net::NetConnector']]],
+  ['connectingactivity',['ConnectingActivity',['../classcom_1_1android_1_1ui_1_1ConnectingActivity.html',1,'com::android::ui']]],
+  ['connectingactivity_2ejava',['ConnectingActivity.java',['../ConnectingActivity_8java.html',1,'']]],
+  ['connectiontyperadio',['connectionTypeRadio',['../classcom_1_1android_1_1ui_1_1DistanceVolumeActivity.html#a3e9e9cb4cf0ce37ad2e95dbd32c909e6',1,'com::android::ui::DistanceVolumeActivity']]],
+  ['connector',['connector',['../classcom_1_1android_1_1ui_1_1ConnectingActivity.html#a6cc7ad138b9c45b6f09c6dda06f553fc',1,'com.android.ui.ConnectingActivity.connector()'],['../classcom_1_1android_1_1ui_1_1DistanceVolumeActivity.html#abe2e11d6519418d97affcfd515468a24',1,'com.android.ui.DistanceVolumeActivity.connector()']]],
+  ['curediteddesktopnameind',['curEditedDesktopNameInd',['../classcom_1_1android_1_1ui_1_1DistanceVolumeActivity.html#af477b872e76329a54d5740abf45fa6ac',1,'com::android::ui::DistanceVolumeActivity']]],
+  ['curselecteddesktopname',['curSelectedDesktopName',['../classcom_1_1android_1_1ui_1_1DistanceVolumeActivity.html#a093e8a46903157f8d8f9e214eb0602f2',1,'com::android::ui::DistanceVolumeActivity']]],
+  ['net',['net',['../namespacecom_1_1android_1_1net.html',1,'com::android']]],
+  ['others',['others',['../namespacecom_1_1android_1_1others.html',1,'com::android']]],
+  ['ui',['ui',['../namespacecom_1_1android_1_1ui.html',1,'com::android']]]
+];

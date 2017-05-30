@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['init',['init',['../classcom_1_1android_1_1ui_1_1DistanceVolumeActivity_1_1MuteButton.html#a051957cb54a70317b1fac7004778c935',1,'com::android::ui::DistanceVolumeActivity::MuteButton']]],
+  ['initbuttons',['initButtons',['../classcom_1_1android_1_1ui_1_1DistanceVolumeActivity.html#a9ad38ca1a0d6c1b7cf0aac530cc1b0ed',1,'com.android.ui.DistanceVolumeActivity.initButtons()'],['../classcom_1_1android_1_1ui_1_1EditDesktopDataActivity.html#ae21f034a58d95772d4d3ba9e40b30730',1,'com.android.ui.EditDesktopDataActivity.initButtons()']]],
+  ['initcancelbutt',['initCancelButt',['../classcom_1_1android_1_1ui_1_1EditDesktopDataActivity.html#afd5998c0f3339c9950caaa11ad912182',1,'com::android::ui::EditDesktopDataActivity']]],
+  ['initconnectiontyperadiobutt',['initConnectionTypeRadioButt',['../classcom_1_1android_1_1ui_1_1DistanceVolumeActivity.html#a6358eb0da767de0f38623662d79803c3',1,'com::android::ui::DistanceVolumeActivity']]],
+  ['initdelbutt',['initDelButt',['../classcom_1_1android_1_1ui_1_1EditDesktopDataActivity.html#a60ccf50b7951b41f38dca782b140023f',1,'com::android::ui::EditDesktopDataActivity']]],
+  ['initdesktopnamesspinner',['initDesktopNamesSpinner',['../classcom_1_1android_1_1ui_1_1DistanceVolumeActivity.html#a78fe27061a5dfb46ce355c05b77d5d0d',1,'com::android::ui::DistanceVolumeActivity']]],
+  ['initdesktopsdatasfromfile',['initDesktopsDatasFromFile',['../classcom_1_1android_1_1ui_1_1DistanceVolumeActivity.html#ad5a8881e32c75c3ce7bf79b225ccb8ab',1,'com::android::ui::DistanceVolumeActivity']]],
+  ['initipedittxtfields',['initIpEditTxtFields',['../classcom_1_1android_1_1ui_1_1EditDesktopDataActivity.html#a522e64680911782725bcf08c2296e46f',1,'com::android::ui::EditDesktopDataActivity']]],
+  ['initokbutt',['initOkButt',['../classcom_1_1android_1_1ui_1_1EditDesktopDataActivity.html#a7ad77cff8aa4670a08e86fa702879333',1,'com::android::ui::EditDesktopDataActivity']]],
+  ['initprevconntyperadiobuttidfromfile',['initPrevConnTypeRadioButtIdFromFile',['../classcom_1_1android_1_1ui_1_1DistanceVolumeActivity.html#a7b9c95f7f9e26e7ce925012bb47b9674',1,'com::android::ui::DistanceVolumeActivity']]],
+  ['initrectangles',['initRectangles',['../classcom_1_1android_1_1ui_1_1DistanceVolumeActivity_1_1EqualiserView.html#a7febd5fe95003bdae5a22658c2e367d5',1,'com::android::ui::DistanceVolumeActivity::EqualiserView']]],
+  ['initui',['initUI',['../classcom_1_1android_1_1ui_1_1DistanceVolumeActivity.html#a5b59f64ed7666b734ea0a95bb57eb399',1,'com.android.ui.DistanceVolumeActivity.initUI()'],['../classcom_1_1android_1_1ui_1_1EditDesktopDataActivity.html#a1407bb5bc856ef418eb7ddac7b1aefaa',1,'com.android.ui.EditDesktopDataActivity.initUI()']]],
+  ['initvolumeseekbar',['initVolumeSeekBar',['../classcom_1_1android_1_1ui_1_1DistanceVolumeActivity.html#a40ce2ace31bdb351ad416c40c516c2ad',1,'com::android::ui::DistanceVolumeActivity']]],
+  ['initvolumeui',['initVolumeUI',['../classcom_1_1android_1_1ui_1_1DistanceVolumeActivity.html#a3352a0385a00d851913c37252ea50918',1,'com::android::ui::DistanceVolumeActivity']]],
+  ['isconnected',['isConnected',['../classcom_1_1android_1_1net_1_1NetConnector.html#a62d2a0e1151292809cd64786ec7dbb1a',1,'com::android::net::NetConnector']]],
+  ['isdesktopdatadefault',['isDesktopDataDefault',['../classcom_1_1android_1_1ui_1_1DistanceVolumeActivity.html#ab44b1efb3f7241ede626ab84112ff2fe',1,'com::android::ui::DistanceVolumeActivity']]],
+  ['isempty',['isEmpty',['../classcom_1_1android_1_1net_1_1DesktopData.html#aa20613f67484b8605edba12def45d60d',1,'com::android::net::DesktopData']]],
+  ['isipused',['isIpUsed',['../classcom_1_1android_1_1ui_1_1EditDesktopDataActivity.html#a3d7466a62be0260c3420d474bfad1b78',1,'com::android::ui::EditDesktopDataActivity']]],
+  ['ismuted',['isMuted',['../classcom_1_1android_1_1net_1_1NetConnector.html#ac09c6198461f0551bf7a9afce4347a46',1,'com::android::net::NetConnector']]],
+  ['isnameused',['isNameUsed',['../classcom_1_1android_1_1ui_1_1EditDesktopDataActivity.html#acefcef397bf20c4bb03dc1fea9775d72',1,'com::android::ui::EditDesktopDataActivity']]],
+  ['isreachable',['isReachable',['../classcom_1_1android_1_1net_1_1NetConnector.html#a036732164c7b49573b772f2f0c87fa76',1,'com::android::net::NetConnector']]],
+  ['iswificonnected',['isWiFiConnected',['../classcom_1_1android_1_1ui_1_1DistanceVolumeActivity.html#affe7bfdb68bd5833c5c45d37ad17658b',1,'com::android::ui::DistanceVolumeActivity']]]
+];
