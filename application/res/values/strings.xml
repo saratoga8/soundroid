@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Remote\nPC Volume</string>
+    <string name="mute">Mute</string>
+    <string name="unmute">Unmute</string>
+    <string name="desktop_prompt">Choose the name of desktop</string>
+    <string name="edit_desktop_name_title">Desktop name edit</string>
+    <string name="set_default">Set default</string>
+    <string name="del">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_new">Add new</string>
+    <string name="conn_type">"Connection type: "</string>
+    <string name="wifi">"WiFi"</string>
+    <string name="bluetooth">"BlueTooth"</string>
+    <string name="desk_name">"Desktop name: "</string>
+    <string name="edit">"Edit"</string>
+    <string name="volume">"Volume: "</string>
+    <string name="title_activity_connecting">ConnectingActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

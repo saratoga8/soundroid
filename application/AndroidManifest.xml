@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.soundroid"
+    android:versionCode="5"
+    android:versionName="2.0.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="com.soundroid" />
+    
+    <application
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name">
+        <activity
+            android:name=".ui.DistanceVolumeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.wifi.EditDesktopDataActivity"
+                  android:label="@string/edit_desktop_name_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.ui.DistanceVolumeActivity" />            
+        </activity>
+        <activity android:name=".ui.wifi.WiFiConnectingActivity"
+                  android:theme="@android:style/Theme.Translucent.NoTitleBar">
+        </activity>
+        <activity android:name=".ui.bluetooth.FoundDevsListActivity" />
+        <activity android:name=".ui.bluetooth.BlueToothConnectingActivity"
+                  android:theme="@android:style/Theme.Translucent.NoTitleBar">
+        </activity>
+
+        <receiver android:name="com.soundroid.ui.widget.WidgetProvider" >
+            <intent-filter >
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_provider" />
+        </receiver>
+
+        <receiver
+            android:name="com.soundroid.ui.widget.WidgetIntentReceiver"
+            android:label="widgetBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="pl.looksok.intent.action.CHANGE_PICTURE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_provider" />
+        </receiver>
+
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+</manifest>

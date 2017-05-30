@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/addrTxtView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IP:         " />
+        <EditText
+            android:id="@+id/ipEditTxt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="3" >
+        </EditText>
+        <TextView
+            android:id="@+id/dotTxtView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="." />
+        <EditText
+            android:id="@+id/ipEditTxt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text=""
+            android:ems="3" >
+        </EditText>
+        <TextView
+            android:id="@+id/dotTxtView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="." />
+        <EditText
+            android:id="@+id/ipEditTxt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text=""
+            android:ems="3" >
+        </EditText>
+        <TextView
+            android:id="@+id/dotTxtView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="." />
+        <EditText
+            android:id="@+id/ipEditTxt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text=""
+            android:ems="3" >
+        </EditText>
+    </LinearLayout>
+
+ 
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/portTxtView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Port:     " />
+
+        <EditText
+            android:id="@+id/portEditTxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:inputType="number"
+            android:ems="10" >
+        <requestFocus />
+    </EditText>
+    </LinearLayout>
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+	    <TextView
+	            android:id="@+id/nameTxtView"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Name: " />
+	    <EditText
+	            android:id="@+id/nameEditTxt"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:inputType="text"
+	            android:text="">
+	    </EditText>
+	    
+    </LinearLayout>
+    
+    <CheckBox
+        android:id="@+id/defaultChkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_default"
+        android:checked="false" />
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+	    <Button
+            android:id="@+id/buttOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"            
+            android:text="OK" />
+	    <Button
+            android:id="@+id/buttCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true" />
+	    
+	     <Button
+            android:id="@+id/buttDel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:text="@string/del"
+             android:layout_alignParentTop="true"
+             android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    
+
+</LinearLayout>
